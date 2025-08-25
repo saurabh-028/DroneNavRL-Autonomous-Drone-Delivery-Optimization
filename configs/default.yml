@@ -1,0 +1,11 @@
+grid_size: 10
+num_birds: 3
+max_steps: 300
+ppo:
+  learning_rate: 0.0003
+  n_steps: 2048
+  batch_size: 128
+dqn:
+  learning_rate: 0.001
+  buffer_size: 50000
+  batch_size: 64
